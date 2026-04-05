@@ -1,0 +1,7 @@
+raspberrypi:
+  hosts:
+    raspberryapi_p4_01:
+      ansible_host: 192.0.2.140
+      http_port: 80
+  vars:
+    ansible_user: my_server_user
